@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>FitZone - Workout Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <h2 class="logo">FitZone</h2>
+
+        <ul>
+
+            <li>
+                <a href="/">Home</a>
+            </li>
+
+            <li>
+                <a href="/about.html">About</a>
+            </li>
+
+            <li>
+                <a href="/workout.html">Dashboard</a>
+            </li>
+
+            <li>
+                <a href="/login.html">Logout</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<section class="dashboard">
+
+    <h1>Workout Dashboard</h1>
+
+    <p>
+        Track your workouts and monitor your progress.
+    </p>
+
+
+    <div class="dashboard-cards">
+
+
+        <div class="dashboard-card">
+
+            <h2>Add Workout</h2>
+
+            <p>
+                Add your exercise and workout details.
+            </p>
+
+            <a href="/start-workout.html"
+               class="btn">
+
+                Add Workout
+
+            </a>
+
+        </div>
+
+
+        <div class="dashboard-card">
+
+            <h2>Workout History</h2>
+
+            <p>
+                View all your previous workouts.
+            </p>
+
+            <a href="/history.html"
+               class="btn">
+
+                View History
+
+            </a>
+
+        </div>
+
+
+        <div class="dashboard-card">
+
+            <h2>Progress</h2>
+
+            <p>
+                View your workout progress.
+            </p>
+
+            <a href="/progress.html"
+               class="btn">
+
+                View Progress
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <h2>Quick Progress</h2>
+
+        <p>
+            Total Workouts:
+            <strong id="totalWorkouts">0</strong>
+        </p>
+
+        <p>
+            Total Duration:
+            <strong id="totalDuration">0</strong>
+            minutes
+        </p>
+
+        <p>
+            Total Calories:
+            <strong id="totalCalories">0</strong>
+        </p>
+
+    </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

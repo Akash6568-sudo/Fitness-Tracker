@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add Workout - FitZone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <h2 class="logo">FitZone</h2>
+
+    <ul>
+        <li><a href="/workout.html">Dashboard</a></li>
+        <li><a href="/start-workout.html">Add Workout</a></li>
+        <li><a href="/history.html">History</a></li>
+        <li><a href="/progress.html">Progress</a></li>
+    </ul>
+
+</nav>
+
+
+<section class="login-section">
+
+    <div class="login-box">
+
+        <h1>Add Workout</h1>
+
+        <p>Enter your workout details.</p>
+
+<form id="workoutForm">
+
+    <input
+        type="text"
+        id="workoutName"
+        placeholder="Workout Name"
+        required
+    >
+
+    <input
+        type="number"
+        id="duration"
+        placeholder="Duration (minutes)"
+        min="1"
+        required
+    >
+
+    <input
+        type="number"
+        id="calories"
+        placeholder="Calories Burned"
+        min="1"
+        required
+    >
+
+    <button type="submit" class="btn">
+        Save Workout
+    </button>
+
+</form>
+        
+
+
+        <p class="account-text">
+
+            <a href="workout.html">
+                Back to Dashboard
+            </a>
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
