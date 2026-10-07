@@ -2,9 +2,9 @@
   "name": "fitness",
   "version": "1.0.0",
   "description": "Fitness website using HTML, CSS, JavaScript and Express.js",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+  "start": "node app.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
